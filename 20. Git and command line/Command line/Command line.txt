@@ -1,0 +1,20 @@
+1. what are most popular cmd commands?
+
+System Info & Management:
+systeminfo - Displays detailed system information like OS version, memory, etc.
+ipconfig - Shows IP address, subnet mask, and gateway. Use ipconfig /all for more details.
+ping [hostname] - Tests connectivity to a website or IP. Example: ping google.com
+tracert [hostname] - Traces the route packets take to a network host.
+netstat - Displays active connections, listening ports, and network statistics.
+tasklist - Shows all running processes (like Task Manager).
+
+File & Directory Management:
+dir - Lists files and folders in the current directory.
+ls - Lists files and folders in the current directory.
+D: - chande disk
+explorer . - open curren folder in explorer
+
+User & Network
+whoami	- Shows the current user.
+
+Use command /? to get help for that command. Example: xcopy /?

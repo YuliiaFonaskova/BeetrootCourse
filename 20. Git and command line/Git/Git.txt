@@ -1,0 +1,51 @@
+1. what are most important git commands?
+
+Git Basics
+git init - Initialize a new Git repository in the current folder.
+git clone - [url]	Create a local copy of a remote repo (e.g., from GitHub).
+git status - Show changes, staged/untracked files, and branch info.
+git add [file] - Stage a file for commit. Use git add . to stage all changes.
+git commit -m "message" - Save staged changes to history with a message.
+git log - Show commit history. Add --oneline for compact view.
+
+Branching & Merging
+git branch - List all local branches.
+git branch [name] -	Create a new branch.
+git checkout [branch] -	Switch to another branch.
+git switch [branch] - Modern way to switch branches (Git 2.23+).
+git merge [branch] - Merge another branch into current one.
+git branch -d [name] - Delete a branch (after merging).
+
+Sync with Remote (GitHub, etc.)
+git remote -v -	Show remote repository URLs.
+git pull - Fetch and merge changes from remote.
+git fetch - Fetch changes but don’t merge yet.
+git push - 	Push committed changes to remote.
+git push -u origin [branch] - Push new branch and set upstream.
+
+Undo & Fix
+git restore [file] - Discard changes in a file (unstaged).
+git reset [file] - Unstage a file.
+git reset --hard - Discard all changes (dangerous).
+git revert [commit] - Undo a commit by creating a new one.
+git checkout -- [file] - Old way to discard changes in a file.
+
+Inspect
+git diff - See unstaged changes.
+git diff --staged -	See staged changes.
+git show [commit] -	Show details of a specific commit.
+git blame [file] - See who changed each line of a file.
+
+Configuration
+git config --global user.name "Your Name" -	Set your name globally.
+git config --global user.email "you@example.com" - Set your email.
+git config --list -	View current Git config settings.
+
+Useful Extras
+git stash -	Temporarily save changes without committing.
+git stash pop -	Reapply last stashed changes.
+git tag [name] - Create a tag (e.g., for release versions).
+
+2. how to check if git is installed?
+git --version
+git -v
