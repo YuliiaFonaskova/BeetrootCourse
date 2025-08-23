@@ -1,0 +1,25 @@
+1. VS Code:
+- navigation
+- create/delete files and folders
+- search
+- open and use terminal
+- github copilot
+check tabs to the left:
+a) Explorer
+b) search
+c) Source Control
+
+2. Git most used commands:
+git init – Initialize a new repository
+git clone – Copy a remote repository
+git status – Show current changes
+git add – Stage changes
+git commit – Save staged changes
+git push – Upload commits to remote
+git pull – Download changes from remote
+git fetch – Get changes from remote (without merging)
+git merge – Combine branches
+git branch – List, create, or delete branches
+git log – Show commit history
+
+https://www.youtube.com/watch?v=RGOj5yH7evk
