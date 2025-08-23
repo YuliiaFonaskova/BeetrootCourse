@@ -1,0 +1,10 @@
+1. what is html page?
+
+2. example of html page.
+
+3. what is html body?
+
+In HTML, the <head> section contains metadata and information about the document, 
+such as its title, character encoding, links to stylesheets, and scripts. 
+Content in <head> is not displayed on the page itself, 
+but helps browsers and search engines understand and process the page.
