@@ -3,3 +3,5 @@ Run separate script in terminal - node script.js
 Open chrome developer tools - F12
 Commment code in VS Code - Ctrl + /
 Commment code in chrome developer tools - Ctrl + /
+Align text to right - Tab
+Align text to left - Shift + Tab
