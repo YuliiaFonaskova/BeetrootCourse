@@ -3,67 +3,25 @@ export class JavaScriptFundamentals {
     console.log("JavaScriptFundamentals");
 
     this.HelloWorld();
-    // this.CodeStructureExample();
-    // this.CodeStructure();
+    this.CodeStructure();
+    this.TheModernModeUseStrict();
+    this.Variables();
+    this.DataTypes();
+    this.InteractionAlertPromptConfirm();
+    this.TypeConversions();
+    this.BasicOperatorsMaths();
   }
 
   HelloWorld() {
     console.log("HelloWorld");
-    // Web
-    // HelloWorld.html
-  }
-
-  CodeStructureExample() {
-    console.log("CodeStructure");
-    // VS Code
-    // Statements
-    {
-      console.log("Hello");
-      console.log("World");
-
-      console.log("Hello");
-      console.log("World");
-    }
-
-    // Semicolons
-    {
-      console.log("Hello");
-      console.log("World");
-
-      console.log(3 + 1 + 2);
-
-      console.log("Hello");
-      [1, 2].forEach(console.log);
-
-      // error
-      //
-      console.log("Hello");
-      // [1, 2].forEach(console.log);
-    }
-
-    // Comments
-    {
-      // This comment occupies a line of its own
-      console.log("Hello");
-
-      console.log("World"); // This comment follows the statement
-
-      /* An example with two messages.
-            This is a multiline comment.
-            */
-      console.log("Hello");
-      console.log("World");
-
-      /* Commenting out the code
-            console.log('Hello');
-            */
-      console.log("World");
-    }
+    // Web - HelloWorld.html
   }
 
   CodeStructure() {
     console.log("CodeStructure");
-    // VS Code
+    // VS Code - here
+    // use console.log instead of alert
+
     // Statements
     {
     }
@@ -79,25 +37,182 @@ export class JavaScriptFundamentals {
 
   TheModernModeUseStrict() {
     console.log("TheModernModeUseStrict");
+    // Web - TheModernModeUseStrict.html
   }
 
   Variables() {
     console.log("Variables");
+    // VS Code - here
+
+    // A variable
+    {
+    }
+
+    // A real-life analogy
+    {
+    }
+
+    // Variable naming
+    {
+    }
+
+    // Constants
+    {
+    }
+
+    // Name things right
+    {
+    }
+
+    // Summary
+
+    // Tasks
+
+    // Working with variables
+    {
+    }
+
+    // Giving the right name
+    {
+    }
+
+    // Uppercase const?
+    {
+    }
   }
 
   DataTypes() {
     console.log("DataTypes");
+    // VS Code - here
+    // use console.log instead of alert
+
+    // Number
+    {
+    }
+
+    // BigInt
+    {
+    }
+
+    // String
+    {
+    }
+
+    // Boolean (logical type)
+    {
+    }
+
+    // The “null” value
+    {
+    }
+
+    // The “undefined” value
+    {
+    }
+
+    // Objects and Symbols
+    {
+    }
+
+    // The typeof operator
+    {
+    }
+
+    // Summary
+
+    // Tasks
+
+    // String quotes
+    {
+    }
   }
 
   InteractionAlertPromptConfirm() {
     console.log("InteractionAlertPromptConfirm");
+    // Web - InteractionAlertPromptConfirm.html
   }
 
   TypeConversions() {
     console.log("TypeConversions");
+    // VS Code - here
+    // use console.log instead of alert
+
+    // String Conversion
+    {
+    }
+
+    // Numeric Conversion
+    {
+    }
+
+    // Boolean Conversion
+    {
+    }
+
+    // Summary
   }
 
   BasicOperatorsMaths() {
     console.log("BasicOperatorsMaths");
+    // VS Code - here
+    // use console.log instead of alert
+
+    // Terms: “unary”, “binary”, “operand”
+    {
+    }
+
+    // Maths
+    {
+    }
+
+    // String concatenation with binary +
+    {
+    }
+
+    // Numeric conversion, unary +
+    {
+    }
+
+    // Operator precedence
+    {
+    }
+
+    // Assignment
+    {
+    }
+
+    // Modify-in-place
+    {
+    }
+
+    // Increment/decrement
+    {
+    }
+
+    // Bitwise operators
+    {
+    }
+
+    // Comma
+    {
+    }
+
+    // Tasks
+
+    // The postfix and prefix forms
+    {
+    }
+
+    // Assignment result
+    {
+    }
+
+    // Type conversions
+    {
+    }
+
+    // Fix the addition
+    {
+    }
   }
 }
