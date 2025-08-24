@@ -127,6 +127,7 @@ export class AnIntroduction {
   }
 }
 
+/*
 function helloWeb() {
   alert("Hello Web");
 }
@@ -167,3 +168,4 @@ let message = "Hello";
 
 user = 25;
 age = 7;
+*/

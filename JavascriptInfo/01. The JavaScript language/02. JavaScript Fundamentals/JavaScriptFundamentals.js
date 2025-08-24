@@ -3,8 +3,8 @@ export class JavaScriptFundamentals {
     console.log("JavaScriptFundamentals");
 
     this.HelloWorld();
-    this.CodeStructureExample();
-    this.CodeStructure();
+    // this.CodeStructureExample();
+    // this.CodeStructure();
   }
 
   HelloWorld() {
@@ -36,7 +36,8 @@ export class JavaScriptFundamentals {
       [1, 2].forEach(console.log);
 
       // error
-      // console.log("Hello")
+      //
+      console.log("Hello");
       // [1, 2].forEach(console.log);
     }
 
