@@ -10,6 +10,7 @@ export class AnIntroduction {
 
   AnIntroductionToJavaScript() {
     console.log("AnIntroductionToJavaScript");
+    // Commment code in VS Code - Ctrl + /
 
     // What is JavaScript?
     {
