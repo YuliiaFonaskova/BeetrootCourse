@@ -1,7 +1,8 @@
 export class AnIntroduction {
   constructor() {
     console.log("AnIntroduction");
-    // this.AnIntroductionToJavaScript();
+
+    this.AnIntroductionToJavaScript();
     // this.ManualsAndSpecifications();
     // this.CodeEditors();
     // this.DeveloperConsole();
@@ -10,18 +11,12 @@ export class AnIntroduction {
   AnIntroductionToJavaScript() {
     console.log("AnIntroductionToJavaScript");
 
-    let a;
-
     // What is JavaScript?
     {
-      // let a;
     }
-
-    a = 10;
 
     // What can in-browser JavaScript do?
     {
-      let message;
     }
 
     // What CAN’T in-browser JavaScript do?
@@ -74,18 +69,12 @@ export class AnIntroduction {
   DeveloperConsole() {
     console.log("DeveloperConsole");
 
-    let a = 5;
     // Google Chrome
     {
-      a = 10;
-
-      let b = 10;
     }
 
-    b = 10;
     // Firefox, Edge, and others
     {
-      b = 10;
     }
 
     // Safari
@@ -110,12 +99,13 @@ function sum(a, b) {
 }
 
 let result = sum(10, 20);
-// console.log(result);
+console.log(result);
 
-// helloNode();
-// helloNode();
-// helloNode();
+helloNode();
+helloNode();
+helloNode();
 
+// error, as alert is browser function
 // helloWeb();
 
 {

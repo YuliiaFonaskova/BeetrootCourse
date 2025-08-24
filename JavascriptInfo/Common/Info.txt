@@ -1,0 +1,5 @@
+Run code in Visual Studio Code - F5
+Run separate script in terminal - node script.js
+Open chrome developer tools - F12
+Commment code in VS Code - Ctrl + /
+Commment code in chrome developer tools - Ctrl + /
