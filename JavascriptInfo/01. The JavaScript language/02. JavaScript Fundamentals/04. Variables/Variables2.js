@@ -1,0 +1,19 @@
+let message; //створити змінну message
+message = "Hello"; //надати змінній значення hello
+alert(message); //показати значення змінної
+
+let message1;
+message1 = "Andrii";
+alert(message1);
+
+let message2;
+message2 = "Ти";
+alert(message2);
+
+let message3;
+message3 = "мене";
+alert(message3);
+
+let message4;
+message4 = "задрав";
+alert(message4);
