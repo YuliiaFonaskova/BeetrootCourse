@@ -50,7 +50,7 @@ let accessAllowed = age > 18 ? true : false;
 let age = prompt("age?", 18); //вивести вспливаюче вікно із полем вводу і питанням про вік
 let message =
   age < 3
-    ? "Hi, baby!" //надати message значення якщо вік менше 3 - вивести текст
+    ? "Hi, baby!"
     : age < 18
     ? "Hello!"
     : age < 100

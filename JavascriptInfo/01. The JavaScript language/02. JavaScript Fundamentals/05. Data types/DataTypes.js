@@ -9,6 +9,8 @@ alert("not a number" / 2 - 1); // NaN
 // BigInt type was recently added to the language to represent integers of arbitrary length.
 const bigInt = 1234567890123456789012345678901234567890n;
 
+let str = "Hello";
+
 // String - рядок
 let str = "Hello";
 let str2 = "Single quotes are ok too";

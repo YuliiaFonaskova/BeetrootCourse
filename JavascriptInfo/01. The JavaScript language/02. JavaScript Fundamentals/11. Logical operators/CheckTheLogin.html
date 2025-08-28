@@ -6,15 +6,24 @@
 </head>
 <body>
     <script>
-        let check = prompt('Who is there', 'Write admin or something else...');
-        if (check == 'Admin') { //потрійне дорівнює, бо якщо одне і два, то воно не розрізняє текст
-        let password = prompt ('Write your password');
-        if (password == 'TheMaster'){
-        alert ('Welcome!');}
-        else alert ('Wrong password');
+           let check = prompt('Who is there', 'Write admin or something else...');
+
+        if (check === 'Admin') {
+            let password = prompt('Write your password');
+
+            if (password === 'TheMaster') {
+                alert('Welcome!');
+            } else if (password === '' || password === null) {
+                alert('Скасовано');
+            } else {
+                alert('Wrong password');
+            }
+
+        } else if (check === '' || check === null) {
+            alert('Скасовано');
+        } else {
+            alert('I don\'t know you');
         }
-     
-else alert ('I dont know you');
 
     </script>
 </body>
